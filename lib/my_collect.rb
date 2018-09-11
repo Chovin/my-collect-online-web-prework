@@ -5,4 +5,5 @@ def my_collect collection
     ret[i] = yield collection[i]
     i += 1
   end
+  ret
 end
